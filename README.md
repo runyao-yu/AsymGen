@@ -1,11 +1,11 @@
-# OrderFusion
+# AsymGen
 Orderbook Feature Learning and Asymmetric Generalization in Intraday Electricity Markets
 
 🦊 Summary page: https://runyao-yu.github.io/AsymGen/
 
 🌋 Paper link: https://arxiv.org/pdf/placeholder
 
-![Description of Image](Figure/static/images/Phases.PNG)
+![Description of Image](static/images/Phases.PNG)
 
 
 ---
