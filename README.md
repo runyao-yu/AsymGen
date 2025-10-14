@@ -16,7 +16,7 @@ Orderbook Feature Learning and Asymmetric Generalization in Intraday Electricity
 We open-source all code for preprocessing, modeling, and analysis.  
 The project directory is structured as follows:
 
-    OrderFusion/
+    AsymGen/
     ├── Data/
         |- Country (e.g. Germany)
             |- Intraday Continuous
