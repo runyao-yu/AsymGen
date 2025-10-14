@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Orderbook Feature Learning and Asymmetric Generalization in Intraday Electricity Markets</title> <!-- 1 title-->
+  <link rel="icon" type="image/x-icon" href="static/images/delft_favicon.ico"> <!-- 2 icon-->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <!-- 3 authors-->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              Orderbook Feature Learning and <br>
+              Asymmetric Generalization in <br>
+              Intraday Electricity Markets
+            </h1>
+            <!-- first line of authors -->
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/runyao-yu/" target="_blank">Runyao Yu</a><sup>1,2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/ruochen-gary-wu-66b2a12a2/" target="_blank">Ruochen Wu</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/yongsheng-han-84a991199/" target="_blank">Yongsheng Han</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/jochen-cremer/" target="_blank">Jochen L. Cremer</a><sup>1,2</sup>
+              </span>
+            </div>
+
+
+                  <div class="is-size-5 publication-authors">
+                  <span class="author-block"><sup>1</sup> Delft University of Technology</span>, 
+                  <span class="author-block"><sup>2</sup> Austrian Institute of Technology</span><br>
+
+                  <span class="author-block">Preprint (under review)</span>
+                </div>
+
+
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                
+                        <!-- 4 links-->
+
+                <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/runyao-yu/AsymGen" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/placeholder" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <!-- Replace video with image -->
+      <img src="static/images/Asym_Gen.PNG" alt="Teaser Image" style="width:100%; height:auto; max-height:700px; object-fit:cover;">
+
+      <h2 class="subtitle has-text-centered" style="margin-top:1rem;">
+        Analysis of model performance against market liquidity.  
+        <b>(a)</b> Comparison of market liquidity.
+        <b>(b)</b> Loss ratio versus trade-count ratio.
+        For trade-count ratio larger than 1, where transfer learning is performed from a more liquid domain to a less liquid one, 
+        the loss ratio remains 1, indicating performance equivalent to training directly on the target domain. 
+        In contrast, for trade-count ratio smaller than 1, where transfer occurs from a less liquid domain to a more liquid one, 
+        a clear exponential trend is observed: as trade-count ratio decreases, the loss ratio increases sharply, 
+        indicating worse performance compared to target-only training.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- 6 Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          Accurate probabilistic forecasting of intraday electricity prices is critical for market participants to inform trading decisions. 
+          Existing studies rely on specific domain features, such as Volume-Weighted Average Price (VWAP) and the last price. However, the rich information in the orderbook remains underexplored. 
+          Furthermore, these approaches are often developed within a single country and product type, making it unclear whether the approaches are generalizable.
+          In this paper, we extract 384 features from the orderbook and identify a set of powerful features via feature selection. 
+          Based on selected features, we present a comprehensive benchmark using classical statistical methods, tree-based ensembles, and deep learning models
+          across two countries (Germany and Austria) and two product types (60-min and 15-min). 
+          We further perform a systematic generalization study across countries and product types, from which we reveal an asymmetric generalization phenomenon.   
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- 6.5 Model image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <!-- Replace video with image -->
+      <img src="static/images/Phases.PNG" alt="Teaser Image" style="width:100%; height:auto; max-height:700px; object-fit:cover;">
+
+      <h2 class="subtitle has-text-centered" style="margin-top:1rem;">
+        Overview of the three phases in our study: Feature Engineering, Model Optimization, and Generalization Analysis.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+
+<!-- 6.5 Model image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <!-- Replace video with image -->
+      <img src="static/images/ID3.PNG" alt="Teaser Image" style="width:100%; height:auto; max-height:700px; object-fit:cover;">
+
+      <h2 class="subtitle has-text-centered" style="margin-top:1rem;">
+        Visualization of 60-min and 15-min ID3 from Germany and Austria. 
+        <b>(a)--(d)</b> Histograms of ID3. The price indices exhibit high skewness and dispersion during the energy crisis in 2022, gradually reverting to a more stable distribution in 2023 and 2024. 
+        <b>(e)--(f)</b> ID3 trajectories in 2024 (range limited to [-500, 1000] €/MWh for better visual comparison). Volatility increases in the order: (AT, 60-min), (DE, 60-min), (AT, 15-min), (DE, 15-min).
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+
+<!-- 7. Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/Top5_features.PNG" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Top 5 features per market, product type, and quantile. Most selected features are price percentiles, min, and max prices.
+          The previously reported VWAP and last price are rarely selected.
+        </h2>
+        </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/Table_Asym_Gen.PNG" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Cross-domain generalization performance. 
+          Models trained on more liquid markets or products generalize well to less liquid domains, 
+          while the reverse transfer leads to substantial performance degradation. 
+          </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <p>If you use our code or find our paper useful, please cite:</p>
+    <pre><code>@misc{yu2025asymgen,
+      title={Orderbook Feature Learning and Asymmetric Generalization in Intraday Electricity Markets}, 
+      author={Runyao Yu and Ruochen Wu and Yongsheng Han and Jochen L. Cremer},
+      year={2025},
+      eprint={tbc},
+      archivePrefix={arXiv},
+      primaryClass={tbc},
+      url={https://arxiv.org/abs/tbc}, 
+}
+</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            Template: <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a><br>
+            License: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+<!-- End of Statcounter Code -->
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
