@@ -3,17 +3,17 @@ Orderbook Feature Learning and Asymmetric Generalization in Intraday Electricity
 
 🦊 Summary page: https://runyao-yu.github.io/AsymGen/
 
-🌋 Paper link: https://arxiv.org/pdf/placeholder
+🌋 Paper link: https://arxiv.org/abs/2510.12685
 
-![Description of Image](static/images/Phases.PNG)
+![Phases](static/images/Phases.PNG)
 
+![Asymmetric_Gen](static/images/Asym_Gen.PNG)
 
 ---
 
 
 ## 🚀 Quick Start
 
-We open-source all code for preprocessing, modeling, and analysis.  
 The project directory is structured as follows:
 
     AsymGen/
