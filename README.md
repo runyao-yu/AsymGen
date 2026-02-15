@@ -1,14 +1,17 @@
 # AsymGen
 Orderbook Feature Learning and Asymmetric Generalization in Intraday Electricity Markets
 
+**Accepted to PSCC 2026** (indexed by Journal *Electric Power Systems Research*).
+
 🦊 Summary page: https://runyao-yu.github.io/AsymGen/
 
 🌋 Paper link: https://arxiv.org/abs/2510.12685
 
 ![Phases](static/images/Phases.PNG)
 
-![Asymmetric_Gen](static/images/Asym_Gen.PNG)
+![ID3_figure](static/images/ID3.PNG)
 
+![Feature_analysis](static/images/Feature_importance.PNG)
 ---
 
 
